@@ -23,3 +23,7 @@
 	-ms-overflow-style: none;
 	scrollbar-width: none;
 }
+::selection {
+	background-color: #e0aaff;
+	color: black;
+}
