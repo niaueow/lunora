@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@import "@fontsource/poppins";
+
+@layer base {
+	:root {
+		--font-sans: "Poppins", sans-serif;
+	}
+}
+
+@layer utilities {
+	.bg-dark-purple {
+		background-color: #240046;
+	}
+	.bg-light-purple {
+		background-color: #c77dff;
+	}
+}
+
+.no-scrollbar::-webkit-scrollbar {
+	display: none;
+}
+.no-scrollbar {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
